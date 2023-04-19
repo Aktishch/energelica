@@ -42,6 +42,22 @@
     object-fit: scale-down;
   }
 
+  &--tl {
+    object-position: top left;
+  }
+
+  &--tr {
+    object-position: top right;
+  }
+
+  &--bl {
+    object-position: bottom left;
+  }
+
+  &--br {
+    object-position: bottom right;
+  }
+
   &--rise {
     transition: transform 0.3s linear;
   }

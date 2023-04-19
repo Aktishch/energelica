@@ -89,12 +89,6 @@ const init = () => {
 
         slidesPerView: 3
 
-      },
-
-      [media.xl]: {
-
-        slidesPerView: 4
-
       }
 
     }
@@ -147,13 +141,6 @@ const init = () => {
 
   const sliderPartners = new Swiper('.partners-slider .swiper', {
 
-    pagination: {
-
-      el: '.partners-slider .swiper-pagination',
-      clickable: true
-
-    },
-
     navigation: {
 
       prevEl: '.partners-slider .swiper-button-prev',
@@ -164,8 +151,9 @@ const init = () => {
     slidesPerView: 1.3,
     slidesPerGroup: 1,
     spaceBetween: 20,
-    speed: 500,
+    speed: 1000,
     grabCursor: true,
+    loop: true,
 
     breakpoints: {
 
@@ -187,6 +175,14 @@ const init = () => {
         spaceBetween: 44
 
       }
+
+    },
+
+    autoplay: {
+
+      delay: 3000,
+      stopOnLastSlide: false,
+      disableOnInteraction: false
 
     }
 

@@ -139,7 +139,7 @@
 <!-- О нас -->
 
 <section class="about container relative bg-black color-white overflow-hidden py-md-8" data-theme="item" id="about">
-  <div class="about__bg bg-block px-md-10">
+  <div class="about__bg bg-block w-100 mx-auto px-md-10">
     <div class="about__pack pack pack--rect bg-primary w-100 h-md-100" data-movement="light">
       <div class="loader">
         <span class="loader-progress">
@@ -204,8 +204,7 @@
   }
 ]; %>
 
-<section
-  class="services container flex flex-column align-center justify-center bg-black color-white overflow-hidden px-lg-10"
+<section class="services container flex flex-column align-center justify-center bg-black color-white overflow-hidden w-100 mx-auto px-lg-10"
   data-theme="item" id="services">
   <div
     class="text-center text-uppercase text-14 text-md-20 text-lg-26 mb-5 mb-md-10 ease-in-out duration-5 anim anim--up"
@@ -228,7 +227,7 @@
               </div>
               <picture>
                 <source srcset="img/pictures/services-<%= services[i].img %>.webp" type="image/webp">
-                <img class="image image--rise" src="img/pictures/services-<%= services[i].img %>.jpg" alt="" >
+                <img class="image image--tl image--rise" src="img/pictures/services-<%= services[i].img %>.jpg" alt="" >
               </picture>
             </div>
             <div class="card-content py-7 px-4 px-md-7">
@@ -331,7 +330,7 @@
 <!-- Подход -->
 
 <section class="approach container relative overflow-hidden py-md-10">
-  <div class="approach__bg bg-block px-md-10">
+  <div class="approach__bg bg-block w-100 mx-auto px-md-10">
     <div class="approach__pack pack pack--rect bg-primary w-100 h-md-100 ml-auto" data-movement="light">
       <div class="loader">
         <span class="loader-progress">
@@ -468,7 +467,6 @@
         <% } %>
       </div>
     </div>
-    <div class="swiper-pagination color-white mt-10"></div>
     <button class="swiper-button-prev btn btn--primary btn--fill d-none d-md-flex" data-waved="light">
       <svg class="icon text-14">
         <use xlink:href="img/icons.svg#arrow-left">
@@ -509,7 +507,7 @@
 <!-- Обратная связь -->
 
 <section class="feedback container relative bg-black color-white overflow-hidden" data-theme="item" id="feedback">
-  <div class="feedback__bg bg-block">
+  <div class="feedback__bg bg-block w-100 mx-auto">
     <div class="feedback__pack pack pack--rect bg-primary w-100 h-md-100" data-movement="light">
       <div class="loader">
         <span class="loader-progress">
