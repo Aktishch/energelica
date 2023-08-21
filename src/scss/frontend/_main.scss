@@ -366,3 +366,22 @@
     max-width: 440px;
   }
 }
+
+.footer-bottom {
+  color: rgb(255, 255, 255);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-top: 1px solid rgba(217, 217, 217, 0.2);
+}
+
+.footer-bottom-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
